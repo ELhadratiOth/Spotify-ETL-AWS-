@@ -2,6 +2,8 @@
 
 This project is an automated data pipeline designed to extract data from the Spotify API, process it, and store it in Amazon RDS. The pipeline culminates in visualizing the data using Amazon QuickSight. Orchestrated by various AWS services, including Amazon CloudWatch, the pipeline runs on a weekly schedule to ensure the data remains up-to-date.
 
+![Architecture Diagram](imgs/ArchitectureDiagram.jpg)
+
 ## Architecture Overview
 
 The pipeline consists of several key stages:
